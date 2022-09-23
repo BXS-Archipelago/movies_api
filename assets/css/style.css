@@ -107,7 +107,9 @@
     scroll-behavior: smooth;
   }
   
-  body { background: var(--light-gray); }
+  body { 
+    background: var(--eerie-black);
+     }
   
   body.active { overflow: hidden; }
   

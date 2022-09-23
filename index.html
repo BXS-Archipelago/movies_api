@@ -18,59 +18,57 @@
 
 <!-- Header Area -->
 
-
 <header class="header" data-header>
-<div class="container">
-    <div class="overlay">
+  <div class="container">
 
-    </div>
+    <div class="overlay" data-overlay></div>
 
-    <a href="./index.html" class="logo" alt="Chartz Logo">
-        <img src="./assets/images/logo4.png" alt="">
+    <a href="./index.html" class="logo">
+      <img src="./assets/images/logo66.png" alt="Filmlane logo">
     </a>
-    <div class="hero-actions">
-        <button class="search-button">
-            <ion-icon name="search-outline"></ion-icon>
-        </button>
 
-       <div class="lang-wrapper">
+    <div class="header-actions">
+
+      <button class="search-btn">
+        <ion-icon name="search-outline"></ion-icon>
+      </button>
+
+      <div class="lang-wrapper">
         <label for="language">
-            <ion-icon name="globe-outline"></ion-icon>
+          <ion-icon name="globe-outline"></ion-icon>
         </label>
 
-        
         <select name="language" id="language">
-            <option value="en">EN</option>
-            <option value="au">AU</option>
-            <option value="ar">AR</option>
-            <option value="tu">TU</option>
-          </select>
+          <option value="en">EN</option>
+          <option value="au">AU</option>
+          <option value="ar">AR</option>
+          <option value="tu">TU</option>
+        </select>
+      </div>
 
+      <button class="btn btn-primary">Sign in</button>
 
-          <button class="btn btn-primary">Sign in</button>
-       </div>
     </div>
 
     <button class="menu-open-btn" data-menu-open-btn>
-        <ion-icon name="reorder-two"></ion-icon>
+      <ion-icon name="reorder-two"></ion-icon>
     </button>
-</div>
 
-<nav class="navbar active">
-    <div class="navbar-top">
+    <nav class="navbar" data-navbar>
+
+      <div class="navbar-top">
 
         <a href="./index.html" class="logo">
-
-            <img src="./assets/images/logo4.png" alt="Chartz logo">
+          <img src="./assets/images/logo66.png" alt="Filmlane logo">
         </a>
 
-        <button class="menu-close-btn">
-            <ion-icon name="close-outline"></ion-icon>
+        <button class="menu-close-btn" data-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
         </button>
-    </div>
 
-    
-    <ul class="navbar-list">
+      </div>
+
+      <ul class="navbar-list">
 
         <li>
           <a href="./index.html" class="navbar-link">Home</a>
@@ -94,7 +92,6 @@
 
       </ul>
 
-      
       <ul class="navbar-social-list">
 
         <li>
@@ -129,14 +126,80 @@
 
       </ul>
 
-</nav>
+    </nav>
 
+  </div>
 </header>
 
 
+  <main>
+    <article>
+      <!-- 
+        Hero Section
+       -->
+       <section class="herosection">
+       
+      <section class="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">ChartzMovies</p>
+
+            <h1 class="h1 hero-title">
+              Unlimited <strong>Movie</strong>, TVs Shows, & More.
+            </h1>
+
+            <div class="meta-wrapper">  
+
+              <div class="badge-wrapper">
+                <div class="badge badge-fill">PG 18</div>
+
+                <div class="badge badge-outline">HD</div>
+              </div>
+
+              <div class="ganre-wrapper">
+                <a href="#">Romance,</a>
+
+                <a href="#">Drama</a>
+              </div>
+
+              <div class="date-time">
+
+                <div>
+                  <ion-icon name="calendar-outline"></ion-icon>
+
+                  <time datetime="2022">2022</time>
+                </div>
+
+                <div>
+                  <ion-icon name="time-outline"></ion-icon>
+
+                  <time datetime="PT128M">128 min</time>
+                </div>
+
+              </div>
+
+            </div>
+
+            <button class="btn btn-primary">
+              <ion-icon name="play"></ion-icon>
+
+              <span>Watch now</span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </section>
+    </article>
+
+  </main>
+
     <!-- javascript link -->
 
-    <link rel="stylesheet" href="./assets/js/main.js">
+    <script src="./assets/js/main.js"></script>
 
     <!-- NB - Link for IONICON -->
 
